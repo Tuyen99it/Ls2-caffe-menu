@@ -39,4 +39,19 @@ Example Code
 }
 13. add a background-image property and set its value to url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg).
 14. article elements commonly contain multiple elements that have related information. In this case, it will contain a coffee flavor and a price for that flavor. 
-15. To align text inside element use  text-align property and set there value of left,right or scebter.
+15. To align text inside element use  text-align property and set there value of left,right or center.
+16.  p elements are block-level elements, so they take up the entire width of their parent element. o get them on the same line, you need to apply some styling to the p elements so they behave more like inline elements. Using  display property with value inline-block so the p elements behave more like inline elements.
+17. inline-block elements only take up the width of their content. To spread them out, add a width property to the flavor and price class selectors that have a value of 50% each. Styling the p elements as inline-block and placing them on separate lines in the code creates an extra space to the right of the first p element, causing the second one to shift to the next line. 
+18. max-width property to the menu class with a value of 500px to prevent it from growing too wide.
+19.  font-family property with the value sans-serif and Impact. This is a fairly common font that is very readable.
+20. You can add a fallback value for the font-family by adding another font name separated by a comma. Fallbacks are used in instances where the initial is not found/available.: font-faminly:Impact,sans-serif.
+21. Make the Est. 2020 text italicized by creating an established class selector and giving it the font-style property with the value italic.
+22. Use the font-size property to set text value for element
+23. hr element to display a divider between sections of different content.
+24. height property to set the height of element
+25. make all the edge of elements by using border-color property.
+26. Notice how the thickness of the line looks bigger? The default value of a property named border-width is 1px for all edges of hr elements
+27.  when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.
+28. when the mouse hovers over the link by using a pseudo-selector that looks like a:hover { propertyName: propertyValue; }.
+29. when the link is actually clicked by using pseudo-selectot that lonks like a:active{ propertyName: propertyValue; }.
+30.  Negative values are created using a - in front of the value. 
